@@ -21,16 +21,3 @@ npm install -D @ui5/cli -->for local installation
 -->ui5.yaml -- project type, depedencies, build configuration
 ui5 init -->it creates the ui5.yaml
 
-step2: Bootstrapping  
-1. What SAP UI% bootstrapping means
-2.How UI5 loads into the browser
-3.What each bootstrap attribute does
-4.How UI5 resolves namespaces
-5.How to run UI% modules
-6.How to trigger an action when UI5 is ready
-7.why we moved JS code out of HTML
-8.How UI5 CLI helps serve the framework 
-
-
-1-->update the ui5 cli settings
-$ui5 use OpenUI5 --->select free UI5 framework-opensource
