@@ -1,0 +1,36 @@
+cli = command line interface
+
+npm install --global @ui5/cli
+
+ui5
+
+Root floder
+
+-->Create a package.json file
+npm init -y ==> it will Create package.json
+
+ui5 serve or npm start
+
+-->webapp -html, xml views, controllers, css etc
+
+-->create index.html file
+-->manifest.json --> it is descriptor for out app.it is important file.
+
+npm install -D @ui5/cli -->for local installation 
+
+-->ui5.yaml -- project type, depedencies, build configuration
+ui5 init -->it creates the ui5.yaml
+
+step2: Bootstrapping  
+1. What SAP UI% bootstrapping means
+2.How UI5 loads into the browser
+3.What each bootstrap attribute does
+4.How UI5 resolves namespaces
+5.How to run UI% modules
+6.How to trigger an action when UI5 is ready
+7.why we moved JS code out of HTML
+8.How UI5 CLI helps serve the framework 
+
+
+1-->update the ui5 cli settings
+$ui5 use OpenUI5 --->select free UI5 framework-opensource

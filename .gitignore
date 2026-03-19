@@ -1,0 +1,24 @@
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- Dependencies ---
+node_modules/
+venv/
+env/
+.venv/
+
+# --- Build and Logs ---
+build/
+dist/
+target/
+*.log
+
+# --- Secrets and Config ---
+.env
+*.local
