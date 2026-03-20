@@ -42,3 +42,18 @@ step3 control
 class-sapUiBody --> This class injects: default UI5 background-->font settings --> theme colors --> Spacing rule -->SAP Fiori look & Feel 
 
 create text control in index.js
+
+step4:xml views
+
+we actually created what call SAP/M/ext control inside the index.js. So, and
+this worked, but imagine if we had um if I open the index.js, we go to our web
+index.js, JS we created this text control and imagine if we have about 50
+controls inside the same file. This will be a chaotic mess and so SAP UI5 is
+built using what we call model view controller and that is what we are going
+to be doing today. So the model view controller is actually an architecture which the abbreviation is MVC and the M
+stand for model the V stand for view and the C for controller. So this means that when you have a view this describes what
+the UI that's the user interface will look like and the controller contains the logic the business logic while the
+model contains the data. So we're going to look at all this. Now we will then move our UI code that is for example the
+one we created the text control from JavaScript into a dedicated XML view. So we're going to be creating view now and this will make our code to be cleaner,
+more readable and easier to maintain. So think of this so think of this like building a proper user interface
+structure. So instead of having the controls in one JavaScript file, we are going to create the XML view. 
