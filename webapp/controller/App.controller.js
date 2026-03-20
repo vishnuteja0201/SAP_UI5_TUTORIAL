@@ -16,7 +16,7 @@ sap.ui.define([
                 }
             });
             this.getView().setModel(oModel);
-            
+
             console.log("End of onInit() .........!!!");
         },
 
@@ -27,10 +27,12 @@ sap.ui.define([
         onBye(){
             //show a native JavaScipt alert
             alert("seee you soon");
+            console.log("Entered in controller.js.........!!!");
+
         }
 
+
     });
-    console.log("Entered in controller.js.........!!!");
 }
 
 )
