@@ -34,3 +34,11 @@ step2: Bootstrapping
 
 1-->update the ui5 cli settings
 $ui5 use OpenUI5 --->select free UI5 framework-opensource
+
+step3 control
+
+<body  class ="sapUiBody" id="content" > </body>
+
+class-sapUiBody --> This class injects: default UI5 background-->font settings --> theme colors --> Spacing rule -->SAP Fiori look & Feel 
+
+create text control in index.js
