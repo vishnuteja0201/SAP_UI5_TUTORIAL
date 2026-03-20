@@ -7,7 +7,7 @@ sap.ui.define([
         viewName:"ui5.walkthrough.view.App"
     }).then((oView)=> oView.placeAt("content"))
 
-    console.log("working...........!!!");
+    console.log("Entered in index.js.........!!!");
     }
 
     
