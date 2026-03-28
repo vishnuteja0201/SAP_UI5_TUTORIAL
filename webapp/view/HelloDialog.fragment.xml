@@ -6,7 +6,7 @@
         title="Hello {/recipient/name}">
 
          <beginButton>
-            <Button text="OK" press=".onCloseDialog"/>
+            <Button text="{i18n>dialogCloseButtonText}" press=".onCloseDialog"/>
         </beginButton>
     </Dialog>
 </core:FragmentDefinition>
