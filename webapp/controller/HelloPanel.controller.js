@@ -23,7 +23,8 @@ sap.ui.define([
             this.oDialog.open();
         },
         onCloseDialog() {
-            this.oDialog.close();
+            //we simply close the dialog instance by ID
+            this.byId("helloDialog").close();
         },
 
         onBye(){
