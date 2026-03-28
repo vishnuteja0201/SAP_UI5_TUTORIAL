@@ -15,6 +15,17 @@ sap.ui.define([
             MessageToast.show(sMsg);
         },
 
+        async onOpenDialog(){
+            //create dialog lazily
+            this.oDialog??= await this.loadFragment({
+                name: "ui5.walkthrough.view.HelloDialog"
+            });
+            this.oDialog.open();
+        },
+        onCloseDialog() {
+            this.oDialog.close();
+        },
+
         onBye(){
             //show a native JavaScipt alert
             alert("seee you soon");
