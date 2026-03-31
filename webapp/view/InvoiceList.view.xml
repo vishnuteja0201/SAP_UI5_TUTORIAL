@@ -3,11 +3,20 @@
     xmlns="sap.m"
     xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc">
-    <List
-        headerText = "{i18n>invoiceListTilte}"
+    <List 
+        id="InvoiceList"
         class = "sapUiResponsiveMargin"
         width="auto"
         items="{invoice>/Invoices}">
+        <headerToolbar>
+            <Toolbar>
+                <Title text="{i18n>invoiceListTilte}"/>
+                <ToolbarSpacer/>
+                <SearchField
+                    width="50%"
+                    search=".onFilterInvoices"/>
+            </Toolbar>
+        </headerToolbar>
         <items> <!--Template control  -->
             <ObjectListItem
                 core:require="{
