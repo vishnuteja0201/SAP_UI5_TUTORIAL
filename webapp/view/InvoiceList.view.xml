@@ -10,8 +10,10 @@
         items="{
             path : 'invoice>/Invoices',
             sorter: {
+
                 path : 'ShipperName',
                 group : true
+                
             }
         }">
         <headerToolbar>
